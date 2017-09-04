@@ -1,5 +1,6 @@
 html {
 	  background: url("../img/background.jpg");
+	  margin-top: 0;
  
 }
 
@@ -20,6 +21,7 @@ header{
     -o-background-size:cover;
     background-size: cover;
 	background-blend-mode:screen;
+	margin-top: 0;
 }
 
 
@@ -109,6 +111,7 @@ header h2{
 	font-size: 50px;
 	text-align: center;
 	color: #1d6209;
+	text-transform: uppercase;
 }
 
 /*   To align the center image */
@@ -121,7 +124,7 @@ header h2{
 }
 
 /*  To Style ALL sections */
-section{
+section,article{
 	margin-top: 10px;
 }
 
