@@ -1,6 +1,5 @@
 html {
 	  background: url("../img/background.jpg");
-	  margin-top: 0;
  
 }
 
@@ -13,15 +12,15 @@ body {
 
 header{
 	position: fixed;
+	top: 0px;
 	width: 100%;
 	/*   To give BAckground Image to header  */
-	background: url("../img/coorg.jpg") no-repeat center center fixed;
+	background: url("../img/coorg.jpg") no-repeat center fixed;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size: cover;
 	background-blend-mode:screen;
-	margin-top: 0;
 }
 
 
@@ -91,7 +90,7 @@ a{
 
 
 a:hover{
-	font-size: 25px;
+	font-size: 22px;
 	color: Green;
 	text-decoration: underline;
 }
